@@ -33,6 +33,11 @@ a {
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
 
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
 header {
     height: 90px;
     display: flex;
@@ -45,24 +50,24 @@ body {
     background-color: #fbfbfb;
 }
   
-  .logo img {
+ .logo img {
     height: 50px;
     margin-right: 0 20px;
   }
   
-  nav {
+nav {
     font-family: 'Lato', sans-serif;
     margin-left: 0 15px;
   }
   
-  ul {
+ul {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  li {
+li {
     margin: 0 15px;
   }
 
